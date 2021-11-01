@@ -319,3 +319,15 @@ for(i in 1:41){
   segments(x0 = x0_seg[i], x1 = x1_seg[i],
            y0 = y0_seg[i], y1 = y1_seg[i])
 }
+
+
+
+
+
+########################################
+##
+## But what happens when/if we sample in some skewed manner?
+
+## This could be if we sample mosquitoes only near to housing
+## Or only emerging mosquitoes from a breeding site
+## Or geog too close together as they might all have emerged simultaneously
